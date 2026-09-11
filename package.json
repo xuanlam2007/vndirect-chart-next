@@ -1,0 +1,33 @@
+{
+  "name": "vndirect-chart-next",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@klinecharts/extension": "^0.1.0",
+    "klinecharts": "^10.0.3",
+    "lightweight-charts": "^5.2.1",
+    "lightweight-charts-line-tools-core": "github:difurious/lightweight-charts-line-tools-core",
+    "lightweight-charts-line-tools-fib-retracement": "github:difurious/lightweight-charts-line-tools-fib-retracement",
+    "lightweight-charts-line-tools-lines": "github:difurious/lightweight-charts-line-tools-lines",
+    "lightweight-charts-line-tools-long-short-position": "github:difurious/lightweight-charts-line-tools-long-short-position",
+    "lightweight-charts-line-tools-price-range": "github:difurious/lightweight-charts-line-tools-price-range",
+    "lightweight-charts-line-tools-rectangle": "github:difurious/lightweight-charts-line-tools-rectangle",
+    "lightweight-charts-line-tools-text": "github:difurious/lightweight-charts-line-tools-text",
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.0"
+  }
+}
