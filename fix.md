@@ -1,6 +1,5 @@
 | Ưu tiên | Hạng mục                  | Loại | Vấn đề hiện tại / Mục tiêu                                             | Cần làm                                                              |
 | ------- | ------------------------- | ---- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| P0      | Volume MA 20 SMA 9        | Sửa  | `smoothingLength` hiện chưa được áp dụng đúng                          | Implement `primary MA` và `smoothed MA` đúng logic Volume Study         |
 | P0      | Volume legend value       | Sửa  | Giá trị MA trên header có thể khác line đang vẽ                        | Dùng cùng dataset đã filter session cho cả line và legend               |
 | P0      | Realtime volume semantics | Sửa  | Chưa chắc `tick.volume` là incremental hay cumulative                  | Kiểm tra feed và sửa aggregation volume cho đúng                        |
 | P0      | Session engine            | Sửa  | Đang hard-code giờ bằng `hour <= 14:45`                                | Tạo session logic HOSE chuẩn, có nghỉ trưa, ATC, close                  |
