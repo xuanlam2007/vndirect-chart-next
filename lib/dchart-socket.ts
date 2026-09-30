@@ -1,4 +1,4 @@
-import io from "socket.io-client/dist/socket.io.js";
+import io from "socket.io-client";
 
 const SOCKET_NAMESPACE_URL = "https://dchart-socket.vndirect.com.vn/socket.io";
 
